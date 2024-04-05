@@ -1,7 +1,7 @@
 name: issue
-on: 
+on:
   issues:
-    types [opened]
+    types: [opened]
 jobs:
   respond-to-issue:
     runs-on: ubuntu-latest
