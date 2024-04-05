@@ -6,6 +6,6 @@ jobs:
   respond-to-issue:
     runs-on: ubuntu-latest
     steps:
-      - name: echo
-      - runs: echo "${{ toJSON(github.event)}}"
+      - name: echo13
+        run: echo "${{ toJSON(github.event)}}"
     
