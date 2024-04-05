@@ -4,8 +4,8 @@ jobs:
   init:
     runs-on: ubuntu-latest
     steps:
-     - name: get env
-       uses:  actions/setup-node@v4.0.2
+     - name: get code
+       uses: actions/checkout@v3
      - name: install dependices
        run: npm ci
      - name: run tests
