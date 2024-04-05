@@ -1,0 +1,11 @@
+name: test
+on: workflow_dispatch
+jobs:
+  init:
+    runs-on: ubuntu-latest
+    steps:
+     - name: get env
+       uses:  actions/setup-node@v4.0.2
+     - name: run tests
+       run: npm lint
+  
